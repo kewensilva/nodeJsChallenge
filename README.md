@@ -12,4 +12,4 @@
  
 <h2> Documentação em PDF </h2>
 
-/Document_API_NODE.pdf
+[/Document_API_NODE.pdf](https://github.com/kewensilva/nodeJsChallenge/blob/main/Document_API_NODE.pdf)
