@@ -6,7 +6,7 @@ import * as authUser from './controllers/authController';
 const routes = express.Router();
 
 
-routes.post('/cep', authMiddleware.AuthMiddleware, cepController.searchCep);
+routes.post('/cep/:cep', authMiddleware.AuthMiddleware, cepController.searchCep);
 routes.post('/register', userController.userCreate);
 routes.post('/login', authUser.authUser);
 
